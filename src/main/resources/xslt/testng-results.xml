@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNG Online Learning" duration-ms="411761" started-at="2018-03-22T07:32:08Z" finished-at="2018-03-22T07:39:00Z">
+    <groups>
+    </groups>
+    <test name="LoginTest" duration-ms="64189" started-at="2018-03-22T07:32:08Z" finished-at="2018-03-22T07:33:12Z">
+      <class name="TestCases.Step1">
+        <test-method status="PASS" signature="init()[pri:0, instance:TestCases.Step1@51f116b8]" name="init" is-config="true" duration-ms="25336" started-at="2018-03-22T13:02:08Z" finished-at="2018-03-22T13:02:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="A()[pri:0, instance:TestCases.Step1@51f116b8]" name="A" duration-ms="37027" started-at="2018-03-22T13:02:34Z" finished-at="2018-03-22T13:03:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A -->
+        <test-method status="PASS" signature="QuitDriver(org.testng.ITestResult)[pri:0, instance:TestCases.Step1@51f116b8]" name="QuitDriver" is-config="true" duration-ms="1805" started-at="2018-03-22T13:03:11Z" finished-at="2018-03-22T13:03:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=A status=SUCCESS method=Step1.A()[pri:0, instance:TestCases.Step1@51f116b8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitDriver -->
+      </class> <!-- TestCases.Step1 -->
+    </test> <!-- LoginTest -->
+    <test name="ItemTest" duration-ms="85899" started-at="2018-03-22T07:33:13Z" finished-at="2018-03-22T07:34:38Z">
+      <class name="TestCases.Step2">
+        <test-method status="PASS" signature="init()[pri:0, instance:TestCases.Step2@4e096385]" name="init" is-config="true" duration-ms="30901" started-at="2018-03-22T13:03:13Z" finished-at="2018-03-22T13:03:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="C()[pri:0, instance:TestCases.Step2@4e096385]" name="C" duration-ms="49275" started-at="2018-03-22T13:03:43Z" finished-at="2018-03-22T13:04:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C -->
+        <test-method status="PASS" signature="QuitDriver(org.testng.ITestResult)[pri:0, instance:TestCases.Step2@4e096385]" name="QuitDriver" is-config="true" duration-ms="5719" started-at="2018-03-22T13:04:33Z" finished-at="2018-03-22T13:04:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=C status=SUCCESS method=Step2.C()[pri:0, instance:TestCases.Step2@4e096385] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitDriver -->
+      </class> <!-- TestCases.Step2 -->
+    </test> <!-- ItemTest -->
+    <test name="checkoutTest" duration-ms="152114" started-at="2018-03-22T07:34:38Z" finished-at="2018-03-22T07:37:11Z">
+      <class name="TestCases.step3">
+        <test-method status="PASS" signature="init()[pri:0, instance:TestCases.step3@7ea9e1e2]" name="init" is-config="true" duration-ms="46028" started-at="2018-03-22T13:04:38Z" finished-at="2018-03-22T13:05:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="d()[pri:0, instance:TestCases.step3@7ea9e1e2]" name="d" duration-ms="104098" started-at="2018-03-22T13:05:25Z" finished-at="2018-03-22T13:07:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- d -->
+        <test-method status="PASS" signature="QuitDriver(org.testng.ITestResult)[pri:0, instance:TestCases.step3@7ea9e1e2]" name="QuitDriver" is-config="true" duration-ms="1982" started-at="2018-03-22T13:07:09Z" finished-at="2018-03-22T13:07:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=d status=SUCCESS method=step3.d()[pri:0, instance:TestCases.step3@7ea9e1e2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitDriver -->
+      </class> <!-- TestCases.step3 -->
+    </test> <!-- checkoutTest -->
+    <test name="AccountTest" duration-ms="109398" started-at="2018-03-22T07:37:11Z" finished-at="2018-03-22T07:39:00Z">
+      <class name="TestCases.step4">
+        <test-method status="PASS" signature="init()[pri:0, instance:TestCases.step4@3bf9ce3e]" name="init" is-config="true" duration-ms="24943" started-at="2018-03-22T13:07:11Z" finished-at="2018-03-22T13:07:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="e()[pri:0, instance:TestCases.step4@3bf9ce3e]" name="e" duration-ms="74225" started-at="2018-03-22T13:07:36Z" finished-at="2018-03-22T13:08:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- e -->
+        <test-method status="PASS" signature="QuitDriver(org.testng.ITestResult)[pri:0, instance:TestCases.step4@3bf9ce3e]" name="QuitDriver" is-config="true" duration-ms="10225" started-at="2018-03-22T13:08:50Z" finished-at="2018-03-22T13:09:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=e status=SUCCESS method=step4.e()[pri:0, instance:TestCases.step4@3bf9ce3e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitDriver -->
+      </class> <!-- TestCases.step4 -->
+    </test> <!-- AccountTest -->
+  </suite> <!-- TestNG Online Learning -->
+</testng-results>

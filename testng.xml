@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd"><suite name="TestNG">
+
+
+
+
+    <test name="LoginTest">
+        <classes>
+            <class name="TestCases.Step1" ></class>
+        </classes>
+    </test>
+    <test name="ItemTest">
+        <classes>
+            <class name="TestCases.Step2" ></class>
+        </classes>
+    </test>
+
+    <test name="checkoutTest">
+        <classes>
+            <class name="TestCases.step3" ></class>
+        </classes>
+    </test>
+    <test name="AccountTest">
+        <classes>
+            <class name="TestCases.step4" ></class>
+        </classes>
+    </test>
+
+</suite>
